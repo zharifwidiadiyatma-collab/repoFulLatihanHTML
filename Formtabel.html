@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Formtabel</title>  
+        <link rel="stylesheet" href="style.css">
+        <style>
+             
+        </style>  
+    </head>
+    <body>
+        <h1 style="color: lime;">Form Isian</h1>
+         <form action="#" method="post">
+        <table>
+            <tr>
+                <td>Nama depan</td>
+                <td><input type="text" name="nama_depan"></td>
+            </tr>
+            <tr>
+                <td>Nama belakang</td>
+                <td><input type="text" name="nama_belakang"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" rows="7" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Berat badan, Tinggi badan</td>
+                <td><input type="text" name="berat_badan" value="Berat badan"> kg,<br>
+                     <input type="text" name="tinggi_badan" value="Tinggi badan"> cm</td>
+            </tr>
+            <tr>
+                <td>Warna Faforit</td>
+                <td><input type="color" name="warna_faforit"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="Sandi"> </td>
+            </tr>
+
+            <tr>
+                <td>Hobby</td>
+                <td><input type="checkbox" name="hobby[]" >Membaca<br>
+                     <input type="checkbox" name="hobby[]" >Menulis<br>
+                     <input type="checkbox" name="hobby[]" >Bermain Game</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jenis[]">Laki-laki<br>
+                     <input type="radio" name="jenis[]">Perempuan</td>
+            </tr>
+            <tr>
+                <td>Kota Asal</td>
+                <td>
+                    <select name="kota_asal">
+                        <option value="jakarta">Jakarta</option>
+                        <option value="bandung">Bandung</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="malang">Malang</option>
+                        <option value="batu">Batu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Uploaad gambar</td>
+                <td><input type="file" name="gambar"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Kirim Data" class="btn kirim">
+                <td><input type="reset" value="Reset" class="btn reset">
+                <td><input type="button" value="klik" class="btn klik" onclick="alert('haloo Guyss')"></td>
+            </tr>
+        </table>
+        </form>
+
+
+    </body>
+
+</html>

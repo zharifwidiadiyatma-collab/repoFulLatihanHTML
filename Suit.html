@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini game</title>
+</head>
+<body>
+    <center>
+ <h1>Suit</h1>   
+ <table width="500">
+    <tr>
+        <td>
+            <h2>You</h2>
+            <button onclick="main('BATU')">BATU</button>
+            <button onclick="main('GUNTING')">GUNTING</button>
+            <button onclick="main('KERTAS')">KERTAS</button> <br>
+            <h2>Score : <p id="skor_user">0</p></h2><br>
+            <img id="pil_user" src="BATU.jpg" width="100px">
+            
+        </td>
+        <td>
+            <h2>Computer</h2>
+            <h2>Score : <p id="skor_com">0</p></h2><br>
+            <img id="pil_com" src="BATU.jpg" width="100px">
+        </td>
+    </tr>
+    <tr align="center">
+        <td colspan="2">
+        <p id="hasil">HASIL</p>
+        <p id="skor">menang: 0 | kalah: 0 | seri: 0</p>
+    </td>
+    </tr>
+ </table>
+    </center>
+  <script src="SuitScript.js"></script>       
+</body>
+</html>
